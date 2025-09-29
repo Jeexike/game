@@ -5,40 +5,43 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Найти потоки (обязательно для std::thread)
 find_package(Threads REQUIRED)
 
-# Указать путь к SFML (если установлен локально)
 set(SFML_DIR "${CMAKE_SOURCE_DIR}/SFML-2.6.2/lib/cmake/SFML")
 find_package(SFML 2.6.2 COMPONENTS graphics window system REQUIRED)
 
-# Исходные файлы
 set(SOURCE_FILES
     main.cpp
-    engine/AbstractEntity.cpp  # если есть .cpp файлы — добавьте их
+    engine/AbstractEntity.cpp
+    engine/Bullet.cpp
     engine/Context.cpp
-    # ... остальные .cpp, если есть
+    engine/EnemySpawner.cpp
+    engine/EntityHolder.cpp
+    engine/FastEnemy.cpp
+    engine/FillerText.cpp
+    engine/HeavyEnemy.cpp
+    engine/IntervalTimer.cpp
+    engine/Player.cpp
+    engine/ScoreCounter.cpp
+    engine/Tower.cpp
+    engine/WalkerEnemy.cpp
+    engine/Engine.cpp
 )
 
-# Если у вас ВСЕ классы в .h (header-only), то main.cpp достаточно
+add_executable(Game ${SOURCE_FILES})
 
-add_executable(Game main.cpp)
-
-# Include директории
 target_include_directories(Game PRIVATE
     ${CMAKE_SOURCE_DIR}/engine
     ${CMAKE_SOURCE_DIR}/SFML-2.6.2/include
 )
 
-# Линковка
 target_link_libraries(Game PRIVATE
     sfml-graphics
     sfml-window
     sfml-system
-    Threads::Threads  # ← критически важно для std::thread
+    Threads::Threads
 )
 
-# Опционально: предупреждения
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
     target_compile_options(Game PRIVATE -Wall -Wextra -Wno-unused-parameter)
 endif()

@@ -1,10 +1,7 @@
-#include "engine/Engine.h"
-#include <cstdlib>
-#include <ctime>
+#include "engine/includes/Engine.h"
 
 int main() {
-    srand(static_cast<unsigned>(time(nullptr)));
-    Engine engine("My Game 1.0", 60);
+    Engine engine("Game", 60);
     engine.run();
     return 0;
 }

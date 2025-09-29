@@ -70,20 +70,230 @@ CMakeFiles/Game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/main.cpp -o CMakeFiles/Game.dir/main.cpp.s
 
+CMakeFiles/Game.dir/engine/AbstractEntity.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/AbstractEntity.cpp.o: ../engine/AbstractEntity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game.dir/engine/AbstractEntity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/AbstractEntity.cpp.o -c /home/jeexike/game/engine/AbstractEntity.cpp
+
+CMakeFiles/Game.dir/engine/AbstractEntity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/AbstractEntity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/AbstractEntity.cpp > CMakeFiles/Game.dir/engine/AbstractEntity.cpp.i
+
+CMakeFiles/Game.dir/engine/AbstractEntity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/AbstractEntity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/AbstractEntity.cpp -o CMakeFiles/Game.dir/engine/AbstractEntity.cpp.s
+
+CMakeFiles/Game.dir/engine/Bullet.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/Bullet.cpp.o: ../engine/Bullet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game.dir/engine/Bullet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Bullet.cpp.o -c /home/jeexike/game/engine/Bullet.cpp
+
+CMakeFiles/Game.dir/engine/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/Bullet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/Bullet.cpp > CMakeFiles/Game.dir/engine/Bullet.cpp.i
+
+CMakeFiles/Game.dir/engine/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/Bullet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/Bullet.cpp -o CMakeFiles/Game.dir/engine/Bullet.cpp.s
+
+CMakeFiles/Game.dir/engine/Context.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/Context.cpp.o: ../engine/Context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Game.dir/engine/Context.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Context.cpp.o -c /home/jeexike/game/engine/Context.cpp
+
+CMakeFiles/Game.dir/engine/Context.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/Context.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/Context.cpp > CMakeFiles/Game.dir/engine/Context.cpp.i
+
+CMakeFiles/Game.dir/engine/Context.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/Context.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/Context.cpp -o CMakeFiles/Game.dir/engine/Context.cpp.s
+
+CMakeFiles/Game.dir/engine/EnemySpawner.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/EnemySpawner.cpp.o: ../engine/EnemySpawner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Game.dir/engine/EnemySpawner.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/EnemySpawner.cpp.o -c /home/jeexike/game/engine/EnemySpawner.cpp
+
+CMakeFiles/Game.dir/engine/EnemySpawner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/EnemySpawner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/EnemySpawner.cpp > CMakeFiles/Game.dir/engine/EnemySpawner.cpp.i
+
+CMakeFiles/Game.dir/engine/EnemySpawner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/EnemySpawner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/EnemySpawner.cpp -o CMakeFiles/Game.dir/engine/EnemySpawner.cpp.s
+
+CMakeFiles/Game.dir/engine/EntityHolder.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/EntityHolder.cpp.o: ../engine/EntityHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Game.dir/engine/EntityHolder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/EntityHolder.cpp.o -c /home/jeexike/game/engine/EntityHolder.cpp
+
+CMakeFiles/Game.dir/engine/EntityHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/EntityHolder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/EntityHolder.cpp > CMakeFiles/Game.dir/engine/EntityHolder.cpp.i
+
+CMakeFiles/Game.dir/engine/EntityHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/EntityHolder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/EntityHolder.cpp -o CMakeFiles/Game.dir/engine/EntityHolder.cpp.s
+
+CMakeFiles/Game.dir/engine/FastEnemy.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/FastEnemy.cpp.o: ../engine/FastEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Game.dir/engine/FastEnemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/FastEnemy.cpp.o -c /home/jeexike/game/engine/FastEnemy.cpp
+
+CMakeFiles/Game.dir/engine/FastEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/FastEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/FastEnemy.cpp > CMakeFiles/Game.dir/engine/FastEnemy.cpp.i
+
+CMakeFiles/Game.dir/engine/FastEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/FastEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/FastEnemy.cpp -o CMakeFiles/Game.dir/engine/FastEnemy.cpp.s
+
+CMakeFiles/Game.dir/engine/FillerText.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/FillerText.cpp.o: ../engine/FillerText.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Game.dir/engine/FillerText.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/FillerText.cpp.o -c /home/jeexike/game/engine/FillerText.cpp
+
+CMakeFiles/Game.dir/engine/FillerText.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/FillerText.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/FillerText.cpp > CMakeFiles/Game.dir/engine/FillerText.cpp.i
+
+CMakeFiles/Game.dir/engine/FillerText.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/FillerText.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/FillerText.cpp -o CMakeFiles/Game.dir/engine/FillerText.cpp.s
+
+CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o: ../engine/HeavyEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o -c /home/jeexike/game/engine/HeavyEnemy.cpp
+
+CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/HeavyEnemy.cpp > CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.i
+
+CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/HeavyEnemy.cpp -o CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.s
+
+CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o: ../engine/IntervalTimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o -c /home/jeexike/game/engine/IntervalTimer.cpp
+
+CMakeFiles/Game.dir/engine/IntervalTimer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/IntervalTimer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/IntervalTimer.cpp > CMakeFiles/Game.dir/engine/IntervalTimer.cpp.i
+
+CMakeFiles/Game.dir/engine/IntervalTimer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/IntervalTimer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/IntervalTimer.cpp -o CMakeFiles/Game.dir/engine/IntervalTimer.cpp.s
+
+CMakeFiles/Game.dir/engine/Player.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/Player.cpp.o: ../engine/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Game.dir/engine/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Player.cpp.o -c /home/jeexike/game/engine/Player.cpp
+
+CMakeFiles/Game.dir/engine/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/Player.cpp > CMakeFiles/Game.dir/engine/Player.cpp.i
+
+CMakeFiles/Game.dir/engine/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/Player.cpp -o CMakeFiles/Game.dir/engine/Player.cpp.s
+
+CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o: ../engine/ScoreCounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o -c /home/jeexike/game/engine/ScoreCounter.cpp
+
+CMakeFiles/Game.dir/engine/ScoreCounter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/ScoreCounter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/ScoreCounter.cpp > CMakeFiles/Game.dir/engine/ScoreCounter.cpp.i
+
+CMakeFiles/Game.dir/engine/ScoreCounter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/ScoreCounter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/ScoreCounter.cpp -o CMakeFiles/Game.dir/engine/ScoreCounter.cpp.s
+
+CMakeFiles/Game.dir/engine/Tower.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/Tower.cpp.o: ../engine/Tower.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game.dir/engine/Tower.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Tower.cpp.o -c /home/jeexike/game/engine/Tower.cpp
+
+CMakeFiles/Game.dir/engine/Tower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/Tower.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/Tower.cpp > CMakeFiles/Game.dir/engine/Tower.cpp.i
+
+CMakeFiles/Game.dir/engine/Tower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/Tower.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/Tower.cpp -o CMakeFiles/Game.dir/engine/Tower.cpp.s
+
+CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o: ../engine/WalkerEnemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o -c /home/jeexike/game/engine/WalkerEnemy.cpp
+
+CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/WalkerEnemy.cpp > CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.i
+
+CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/WalkerEnemy.cpp -o CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.s
+
+CMakeFiles/Game.dir/engine/Engine.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/Engine.cpp.o: ../engine/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Game.dir/engine/Engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Engine.cpp.o -c /home/jeexike/game/engine/Engine.cpp
+
+CMakeFiles/Game.dir/engine/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/Engine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/Engine.cpp > CMakeFiles/Game.dir/engine/Engine.cpp.i
+
+CMakeFiles/Game.dir/engine/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/Engine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/Engine.cpp -o CMakeFiles/Game.dir/engine/Engine.cpp.s
+
 # Object files for target Game
 Game_OBJECTS = \
-"CMakeFiles/Game.dir/main.cpp.o"
+"CMakeFiles/Game.dir/main.cpp.o" \
+"CMakeFiles/Game.dir/engine/AbstractEntity.cpp.o" \
+"CMakeFiles/Game.dir/engine/Bullet.cpp.o" \
+"CMakeFiles/Game.dir/engine/Context.cpp.o" \
+"CMakeFiles/Game.dir/engine/EnemySpawner.cpp.o" \
+"CMakeFiles/Game.dir/engine/EntityHolder.cpp.o" \
+"CMakeFiles/Game.dir/engine/FastEnemy.cpp.o" \
+"CMakeFiles/Game.dir/engine/FillerText.cpp.o" \
+"CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o" \
+"CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o" \
+"CMakeFiles/Game.dir/engine/Player.cpp.o" \
+"CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o" \
+"CMakeFiles/Game.dir/engine/Tower.cpp.o" \
+"CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o" \
+"CMakeFiles/Game.dir/engine/Engine.cpp.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
 
 Game: CMakeFiles/Game.dir/main.cpp.o
+Game: CMakeFiles/Game.dir/engine/AbstractEntity.cpp.o
+Game: CMakeFiles/Game.dir/engine/Bullet.cpp.o
+Game: CMakeFiles/Game.dir/engine/Context.cpp.o
+Game: CMakeFiles/Game.dir/engine/EnemySpawner.cpp.o
+Game: CMakeFiles/Game.dir/engine/EntityHolder.cpp.o
+Game: CMakeFiles/Game.dir/engine/FastEnemy.cpp.o
+Game: CMakeFiles/Game.dir/engine/FillerText.cpp.o
+Game: CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o
+Game: CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o
+Game: CMakeFiles/Game.dir/engine/Player.cpp.o
+Game: CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o
+Game: CMakeFiles/Game.dir/engine/Tower.cpp.o
+Game: CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o
+Game: CMakeFiles/Game.dir/engine/Engine.cpp.o
 Game: CMakeFiles/Game.dir/build.make
 Game: /usr/local/lib/libsfml-graphics.so.2.6.2
 Game: /usr/local/lib/libsfml-window.so.2.6.2
 Game: /usr/local/lib/libsfml-system.so.2.6.2
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
