@@ -21,6 +21,7 @@ set(SOURCE_FILES
     engine/FillerText.cpp
     engine/HeavyEnemy.cpp
     engine/IntervalTimer.cpp
+    engine/MainMenu.cpp
     engine/Player.cpp
     engine/ScoreCounter.cpp
     engine/Tower.cpp

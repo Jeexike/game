@@ -8,13 +8,10 @@
 #include <chrono>
 #include <mutex>
 #include <string>
-
+#include "GameState.h"
 #include "Context.h"
 #include "EntityHolder.h"
-
-#include <SFML/Window/Event.hpp>
-#include <SFML/Window/Keyboard.hpp>
-#include <SFML/Window/Mouse.hpp>
+#include "MainMenu.h"
 
 class EnemySpawner;
 class FillerText;
@@ -27,31 +24,36 @@ private:
     const unsigned width;
     const unsigned height;
     std::string title;
+
     EntityHolder entityHolder;
     Context currentContext;
+
     sf::Texture backgroundTexture;
     sf::RectangleShape backgroundShape;
     std::mutex threadLock;
 
     bool isRunning = false;
-    bool isPaused = false;
+    GameState currentState = GameState::Menu;
+    std::unique_ptr<MainMenu> mainMenu;
+    bool gameIsOver = false;
 
+    void runMainMenuLoop();
+    void runGameLoop();
+    void runPausedLoop();
+    void initializeGame();
     void processEvents();
     void runUpdaterThread();
     void clearWindow();
+    void togglePause();
 
 public:
     Engine(const std::string &windowTitle, unsigned targetFPS);
-    Engine(const Engine &) = delete;
-    Engine &operator=(const Engine &) = delete;
-
     ~Engine();
-
     void run();
     void stop();
-    void pause();
     void gameOver();
     void exitGame();
+    void changeState(GameState newState);
 };
 
-#endif // GAME_ENGINE_H
+#endif

@@ -393,6 +393,33 @@ engine/IntervalTimer.cpp.s:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/IntervalTimer.cpp.s
 .PHONY : engine/IntervalTimer.cpp.s
 
+engine/MainMenu.o: engine/MainMenu.cpp.o
+
+.PHONY : engine/MainMenu.o
+
+# target to build an object file
+engine/MainMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/MainMenu.cpp.o
+.PHONY : engine/MainMenu.cpp.o
+
+engine/MainMenu.i: engine/MainMenu.cpp.i
+
+.PHONY : engine/MainMenu.i
+
+# target to preprocess a source file
+engine/MainMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/MainMenu.cpp.i
+.PHONY : engine/MainMenu.cpp.i
+
+engine/MainMenu.s: engine/MainMenu.cpp.s
+
+.PHONY : engine/MainMenu.s
+
+# target to generate assembly for a file
+engine/MainMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/MainMenu.cpp.s
+.PHONY : engine/MainMenu.cpp.s
+
 engine/Player.o: engine/Player.cpp.o
 
 .PHONY : engine/Player.o
@@ -567,6 +594,9 @@ help:
 	@echo "... engine/IntervalTimer.o"
 	@echo "... engine/IntervalTimer.i"
 	@echo "... engine/IntervalTimer.s"
+	@echo "... engine/MainMenu.o"
+	@echo "... engine/MainMenu.i"
+	@echo "... engine/MainMenu.s"
 	@echo "... engine/Player.o"
 	@echo "... engine/Player.i"
 	@echo "... engine/Player.s"
