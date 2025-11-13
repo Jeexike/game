@@ -747,6 +747,8 @@ includes/ScoreCounter.h
 /home/jeexike/game/engine/includes/ScoreCounter.h
 includes/MainMenu.h
 /home/jeexike/game/engine/includes/MainMenu.h
+includes/PauseMenu.h
+/home/jeexike/game/engine/includes/PauseMenu.h
 
 /home/jeexike/game/engine/EntityHolder.cpp
 includes/EntityHolder.h
@@ -807,6 +809,12 @@ iostream
 /home/jeexike/game/engine/MainMenu.cpp
 includes/MainMenu.h
 /home/jeexike/game/engine/includes/MainMenu.h
+iostream
+-
+
+/home/jeexike/game/engine/PauseMenu.cpp
+includes/PauseMenu.h
+/home/jeexike/game/engine/includes/PauseMenu.h
 iostream
 -
 
@@ -951,6 +959,12 @@ functional
 -
 GameState.h
 /home/jeexike/game/engine/includes/GameState.h
+
+/home/jeexike/game/engine/includes/PauseMenu.h
+SFML/Graphics.hpp
+-
+functional
+-
 
 /home/jeexike/game/engine/includes/Player.h
 AbstractEntity.h

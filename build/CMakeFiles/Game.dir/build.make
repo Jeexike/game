@@ -200,9 +200,22 @@ CMakeFiles/Game.dir/engine/MainMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/MainMenu.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/MainMenu.cpp -o CMakeFiles/Game.dir/engine/MainMenu.cpp.s
 
+CMakeFiles/Game.dir/engine/PauseMenu.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/engine/PauseMenu.cpp.o: ../engine/PauseMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game.dir/engine/PauseMenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/PauseMenu.cpp.o -c /home/jeexike/game/engine/PauseMenu.cpp
+
+CMakeFiles/Game.dir/engine/PauseMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/engine/PauseMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeexike/game/engine/PauseMenu.cpp > CMakeFiles/Game.dir/engine/PauseMenu.cpp.i
+
+CMakeFiles/Game.dir/engine/PauseMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/engine/PauseMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeexike/game/engine/PauseMenu.cpp -o CMakeFiles/Game.dir/engine/PauseMenu.cpp.s
+
 CMakeFiles/Game.dir/engine/Player.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/engine/Player.cpp.o: ../engine/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Game.dir/engine/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game.dir/engine/Player.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Player.cpp.o -c /home/jeexike/game/engine/Player.cpp
 
 CMakeFiles/Game.dir/engine/Player.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/Game.dir/engine/Player.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o: ../engine/ScoreCounter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o -c /home/jeexike/game/engine/ScoreCounter.cpp
 
 CMakeFiles/Game.dir/engine/ScoreCounter.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/Game.dir/engine/ScoreCounter.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/engine/Tower.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/engine/Tower.cpp.o: ../engine/Tower.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Game.dir/engine/Tower.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Game.dir/engine/Tower.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Tower.cpp.o -c /home/jeexike/game/engine/Tower.cpp
 
 CMakeFiles/Game.dir/engine/Tower.cpp.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/Game.dir/engine/Tower.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o: ../engine/WalkerEnemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.o -c /home/jeexike/game/engine/WalkerEnemy.cpp
 
 CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/Game.dir/engine/WalkerEnemy.cpp.s: cmake_force
 
 CMakeFiles/Game.dir/engine/Engine.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/engine/Engine.cpp.o: ../engine/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Game.dir/engine/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Game.dir/engine/Engine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Game.dir/engine/Engine.cpp.o -c /home/jeexike/game/engine/Engine.cpp
 
 CMakeFiles/Game.dir/engine/Engine.cpp.i: cmake_force
@@ -278,6 +291,7 @@ Game_OBJECTS = \
 "CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o" \
 "CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o" \
 "CMakeFiles/Game.dir/engine/MainMenu.cpp.o" \
+"CMakeFiles/Game.dir/engine/PauseMenu.cpp.o" \
 "CMakeFiles/Game.dir/engine/Player.cpp.o" \
 "CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o" \
 "CMakeFiles/Game.dir/engine/Tower.cpp.o" \
@@ -298,6 +312,7 @@ Game: CMakeFiles/Game.dir/engine/FillerText.cpp.o
 Game: CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o
 Game: CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o
 Game: CMakeFiles/Game.dir/engine/MainMenu.cpp.o
+Game: CMakeFiles/Game.dir/engine/PauseMenu.cpp.o
 Game: CMakeFiles/Game.dir/engine/Player.cpp.o
 Game: CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o
 Game: CMakeFiles/Game.dir/engine/Tower.cpp.o
@@ -308,7 +323,7 @@ Game: /usr/local/lib/libsfml-graphics.so.2.6.2
 Game: /usr/local/lib/libsfml-window.so.2.6.2
 Game: /usr/local/lib/libsfml-system.so.2.6.2
 Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeexike/game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

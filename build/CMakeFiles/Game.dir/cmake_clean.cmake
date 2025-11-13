@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/engine/HeavyEnemy.cpp.o"
   "CMakeFiles/Game.dir/engine/IntervalTimer.cpp.o"
   "CMakeFiles/Game.dir/engine/MainMenu.cpp.o"
+  "CMakeFiles/Game.dir/engine/PauseMenu.cpp.o"
   "CMakeFiles/Game.dir/engine/Player.cpp.o"
   "CMakeFiles/Game.dir/engine/ScoreCounter.cpp.o"
   "CMakeFiles/Game.dir/engine/Tower.cpp.o"

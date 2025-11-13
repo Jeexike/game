@@ -420,6 +420,33 @@ engine/MainMenu.cpp.s:
 	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/MainMenu.cpp.s
 .PHONY : engine/MainMenu.cpp.s
 
+engine/PauseMenu.o: engine/PauseMenu.cpp.o
+
+.PHONY : engine/PauseMenu.o
+
+# target to build an object file
+engine/PauseMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/PauseMenu.cpp.o
+.PHONY : engine/PauseMenu.cpp.o
+
+engine/PauseMenu.i: engine/PauseMenu.cpp.i
+
+.PHONY : engine/PauseMenu.i
+
+# target to preprocess a source file
+engine/PauseMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/PauseMenu.cpp.i
+.PHONY : engine/PauseMenu.cpp.i
+
+engine/PauseMenu.s: engine/PauseMenu.cpp.s
+
+.PHONY : engine/PauseMenu.s
+
+# target to generate assembly for a file
+engine/PauseMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/engine/PauseMenu.cpp.s
+.PHONY : engine/PauseMenu.cpp.s
+
 engine/Player.o: engine/Player.cpp.o
 
 .PHONY : engine/Player.o
@@ -597,6 +624,9 @@ help:
 	@echo "... engine/MainMenu.o"
 	@echo "... engine/MainMenu.i"
 	@echo "... engine/MainMenu.s"
+	@echo "... engine/PauseMenu.o"
+	@echo "... engine/PauseMenu.i"
+	@echo "... engine/PauseMenu.s"
 	@echo "... engine/Player.o"
 	@echo "... engine/Player.i"
 	@echo "... engine/Player.s"
