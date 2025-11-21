@@ -15,6 +15,7 @@
 
 class EnemySpawner;
 class FillerText;
+class PauseMenu;
 
 class Engine {
     static short engineCount;
@@ -35,13 +36,14 @@ private:
     bool isRunning = false;
     GameState currentState = GameState::Menu;
     std::unique_ptr<MainMenu> mainMenu;
+    std::unique_ptr<PauseMenu> pauseMenu;
     bool gameIsOver = false;
 
     void runMainMenuLoop();
     void runGameLoop();
-    void runPausedLoop();
     void initializeGame();
     void processEvents();
+    void processGameEvents();
     void runUpdaterThread();
     void clearWindow();
     void togglePause();
